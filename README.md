@@ -2,6 +2,10 @@
 
 Hệ thống đánh giá chất lượng khóa học sử dụng các phương pháp **graph-based learning** và **machine learning** để dự đoán chất lượng khóa học từ các nền tảng MOOC. Dữ liệu được xây dựng thành một graph, trong đó các khóa học, giảng viên và học viên là các đỉnh (nodes) và các mối quan hệ giữa chúng là các cạnh (edges). Hệ thống sử dụng thuật toán **Node2Vec** để chuyển đổi graph thành các embedding, giúp mô hình học máy có thể phân loại chất lượng khóa học một cách chính xác. Cuối cùng, mô hình **SVM** được huấn luyện để dự đoán chất lượng khóa học dựa trên các embedding và các nhãn chất lượng đã được gán.
 
+## Data
+Do data có kích thước quá lớn nên nhóm sẽ gởi dưới dạng link drive và sẽ nằm ở ĐỒ ÁN MÔN HỌC/Project/Data
+Link: https://drive.google.com/drive/folders/1mu5Wo2GhQcX5ysmtQb1DJlVjBeEp8jmf?usp=drive_link
+
 ## Deployment
 
 Để triển khai hệ thống trên máy tính cá nhân hoặc server, bạn cần đảm bảo các bước sau:
