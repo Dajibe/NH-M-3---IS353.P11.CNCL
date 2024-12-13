@@ -1,0 +1,7 @@
+matplotlib==3.8.0
+networkx==3.4.2
+node2vec==0.5.0
+scikit-learn==1.5.2
+six==1.16.0
+sklearn-pandas==2.2.0
+tqdm==4.66.6
